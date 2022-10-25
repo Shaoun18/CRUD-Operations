@@ -11,7 +11,7 @@
                 <div class="col-md-12">
                     <div class="card">
                         <div class="card-header">
-                            Add Blog Info
+                            Manage Blog Info
                         </div>
                         <div class="card-body">
                             <h4 class="text-center">{{Session::get('message')}}</h4>
