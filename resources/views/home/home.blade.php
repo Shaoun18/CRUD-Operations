@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="card card-body">
-                    <h1>This is the home page</h1>
+                    <h1>Crud Practice in Laravel</h1>
                 </div>
             </div>
         </div>
