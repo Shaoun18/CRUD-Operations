@@ -22,7 +22,6 @@ This project is a simple Laravel application that demonstrates the Create, Read,
 - **Bootstrap**: Front-end framework for responsive and mobile-first design.
 - **MySQL**: Database management system for storing item data.
 
-![Bootstrap Integration](images/bootstrap-integration.png)
 
 ---
 
@@ -45,8 +44,7 @@ This project is a simple Laravel application that demonstrates the Create, Read,
 
 2. **Install Dependencies**:
    ```bash
-   composer install
-   npm install
+   composer install or update
    ```
 
 3. **Create a copy of the `.env` file**:
@@ -121,6 +119,3 @@ If you would like to contribute to this project, please follow these steps:
    ```bash
    git push origin feature-branch
    ```
-5. **Create a pull request**.
-
----
