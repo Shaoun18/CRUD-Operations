@@ -1,12 +1,8 @@
-To add images to your README file, you need to host the images and provide the appropriate markdown syntax to include them. Below is an example of how you could modify your README file to include images:
 
----
 
 # Laravel CRUD Application
 
 This project is a simple Laravel application that demonstrates the Create, Read, Update, and Delete (CRUD) operations using a database. It allows users to manage items in a database, perform searches, and navigate through data with pagination. 
-
-![Project Logo](images/logo.png)
 
 ---
 
@@ -16,10 +12,7 @@ This project is a simple Laravel application that demonstrates the Create, Read,
 - **Read**: View a list of items with the ability to search and filter.
 - **Update**: Edit existing items in the database.
 - **Delete**: Remove items from the database.
-- **Search**: Filter items by name or description.
-- **Pagination**: Navigate through multiple pages of items.
 
-![Items Table](images/items-table.png)
 
 ---
 
@@ -46,7 +39,7 @@ This project is a simple Laravel application that demonstrates the Create, Read,
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/laravel-crud-app.git
+   git clone https://github.com/yourusername/CRUD-Operations
    cd laravel-crud-app
    ```
 
@@ -89,32 +82,25 @@ This project is a simple Laravel application that demonstrates the Create, Read,
 
 Your Laravel CRUD application should now be accessible at `http://localhost:8000`.
 
-![Run the Server](images/run-server.png)
+![Run the Server](public/web_images/Home.png)
 
 ---
 
 ## **Usage**
 
-1. **Login**:
-   - Access your application via the browser and log in with the provided credentials.
-
-2. **Manage Items**:
+1. **Manage Items**:
    - From the dashboard, navigate to the "Items" page.
    - You will see a list of items with the ability to search, edit, delete, and paginate through the records.
    - Click "Add New Item" to create a new record.
    - Use the form to enter item details and save them to the database.
+![Manage Item](public/web_images/Manage_blog.png)
 
-3. **Search Functionality**:
-   - Enter keywords in the search bar at the top to filter items by name or description.
-   - The list of items will be updated to show only those matching the search criteria.
-
-4. **Edit and Delete**:
+2. **Edit and Delete**:
    - Click the "Edit" button next to an item to modify its details.
    - Use the "Delete" button to remove an item from the database.
    - A confirmation modal will appear before deletion.
 
-![Edit Item](images/edit-item.png)
-![Delete Item](images/delete-item.png)
+![Add Item](public/web_images/Add_Blog.png)
 
 ---
 
@@ -138,15 +124,3 @@ If you would like to contribute to this project, please follow these steps:
 5. **Create a pull request**.
 
 ---
-
-## **License**
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-### **Notes**:
-- Make sure your images are hosted and accessible, such as on GitHub, and replace the `images/` path with the correct URL.
-- You may need to adjust the size and format of images to best fit the layout of your README.
-
-By including images, users can better visualize the application and understand how the features work, making the documentation more effective and user-friendly.
